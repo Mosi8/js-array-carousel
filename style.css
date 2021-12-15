@@ -5,7 +5,7 @@ section {
 }
 
 .container.ms_container {
-    width: 900px;
+    width: 1000px;
     height: 400px;
 } 
 
@@ -49,8 +49,13 @@ img {
     line-height: 30px;
     vertical-align: middle;
     display: inline-block;
+    cursor: pointer;
+    opacity: 0.6;
 }
 
+.circle:hover {
+    opacity: 1;
+}
 
 .vertical_align {
     line-height: 30px;
@@ -70,4 +75,22 @@ img {
     left: 50%;
     transform: translate(-50%);
     z-index: 10;
+}
+
+.ms_title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.ms_text {
+    font-size: 15px;
+}
+
+.ms_posAbs {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+    color: #fff;
+    margin: 0 5px;
 }
